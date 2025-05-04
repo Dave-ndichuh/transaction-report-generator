@@ -33,7 +33,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'bank_reports.urls'
+ROOT_URLCONF = 'bank_reports_complete.urls'
 
 TEMPLATES = [
     {
@@ -51,7 +51,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'bank_reports.wsgi.application'
+WSGI_APPLICATION = 'bank_reports_complete.wsgi.application'
 
 # Database configuration
 DATABASES = {
